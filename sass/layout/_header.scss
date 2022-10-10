@@ -1,0 +1,27 @@
+.header {
+  background-color: #1a3249;
+  color: #fff;
+}
+.navigation {
+  display: flex;
+}
+.navigation__menu {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.navigation__list {
+  display: flex;
+}
+.navigation__item {
+  margin-left: 15px;
+}
+.contacts {
+  margin-left: 320px;
+}
+.contacts__list {
+  display: flex;
+}
+.contacts__item {
+  margin-left: 30px;
+}
