@@ -1,0 +1,15 @@
+.services-list {
+  display: flex;
+  margin-top: 50px;
+}
+.services-item {
+  height: 400px;
+  padding: 30px;
+  border: 5px solid tomato;
+  border-radius: 10px;
+  border-color: aqua;
+
+  &:not(:first-child) {
+    margin-left: 20px;
+  }
+}

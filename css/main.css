@@ -1,7 +1,7 @@
 body {
   position: relative;
   background-color: #ffffff;
-  font-family: var(--main-font);
+  font-family: "Ubuntu", sans-serif;
   color: var(--main-title-color);
 }
 
@@ -20,6 +20,20 @@ body.is-open {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.pre-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.5;
+  color: #2b2b37;
 }
 
 p,
@@ -112,7 +126,7 @@ img {
 }
 
 .header {
-  background-color: #1a3249;
+  background: #524eb7;
   color: #fff;
 }
 
@@ -128,14 +142,18 @@ img {
 
 .navigation__list {
   display: flex;
+  align-items: center;
 }
 
 .navigation__item {
-  margin-left: 15px;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .contacts {
-  margin-left: 320px;
+  margin-left: 80px;
 }
 
 .contacts__list {
@@ -144,12 +162,67 @@ img {
 
 .contacts__item {
   margin-left: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .hero {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/cmmtyx.jpg);
+  background-image: url(/images/masada-fortress.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 900px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 190px;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.5;
+}
+
+.hero-pre__tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #ffffff;
+  height: 54px;
+}
+
+.hero-text__wrap {
+  display: flex;
+}
+
+.hero-text__item {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.hero-text__item:not(:first-child) {
+  margin-left: 70px;
+}
+
+.services-list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.services-item {
+  height: 400px;
+  padding: 30px;
+  border: 5px solid tomato;
+  border-radius: 10px;
+  border-color: aqua;
+}
+.services-item:not(:first-child) {
+  margin-left: 20px;
 }/*# sourceMappingURL=main.css.map */

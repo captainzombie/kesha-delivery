@@ -1,7 +1,7 @@
 body {
   position: relative;
   background-color: #ffffff;
-  font-family: var(--main-font);
+  font-family: "Ubuntu", sans-serif;
   color: var(--main-title-color);
 }
 
@@ -33,4 +33,18 @@ body.is-open {
   // font-size: 14px;
   // line-height: 1.14;
   // letter-spacing: 0.02em;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.pre-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.5;
+  color: #2b2b37;
 }

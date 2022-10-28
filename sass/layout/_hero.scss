@@ -1,11 +1,41 @@
 .hero {
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(/images/cmmtyx.jpg);
+  background-image: url(/images/masada-fortress.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 900px;
+  // background: #524eb7;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 190px;
+}
+
+.hero-title {
+  color: #ffffff;
+
+  // height: 108px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.5;
+}
+
+.hero-pre__tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #ffffff;
+  height: 54px;
+}
+
+.hero-text__wrap {
+  display: flex;
+}
+
+.hero-text__item {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ffffff;
+
+  &:not(:first-child) {
+    margin-left: 70px;
+  }
 }
