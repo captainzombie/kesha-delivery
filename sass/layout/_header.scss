@@ -1,6 +1,10 @@
 .header {
-  background: #524eb7;
+  // background: #524eb7;
   color: #fff;
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding-top: 30px;
 }
 .navigation {
   display: flex;
