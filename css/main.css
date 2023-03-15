@@ -127,10 +127,14 @@ img {
 
 .header {
   color: #fff;
+<<<<<<< Updated upstream
   position: absolute;
   right: 0;
   left: 0;
   padding-top: 30px;
+=======
+  padding: 20px;
+>>>>>>> Stashed changes
 }
 
 .navigation {
